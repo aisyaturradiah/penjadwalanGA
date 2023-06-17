@@ -899,7 +899,7 @@ with st.container():
 
         if not button_apply:
             try:
-                read = pd.read_csv('C:\main\Penjadwalan GA.csv')
+                read = pd.read_csv('C:\main\Penjadwalan GA1.csv')
                 st.dataframe(read, use_container_width=True)
             except:
                 pass
